@@ -13,7 +13,6 @@ const NameHeader = styled.h1`
 
 const Subheader = styled.p`
 font-size:30px;
-// text-align: center;
 font-family: 'Boska-Medium';
 `;
 

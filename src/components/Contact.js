@@ -7,7 +7,6 @@ function Contact(){
   const ContactHeader = styled.h1`
   font-size: 50px;
   text-align: center;
-  // font-family: 'Switzer-Medium';
   font-family: 'Boska-Medium';
   margin-bottom: 20px;
   padding-top: 100px;
