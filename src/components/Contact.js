@@ -13,7 +13,7 @@ function Contact(){
 `;
 
 const ContactLinks = styled.div`
-font-size: 30px;
+font-size: 20px;
 padding-bottom: 50px;
 `;
 
@@ -23,17 +23,22 @@ const center = {
   textAlign: 'center'
 }
 
+const ContactDiv = styled.div`
+height: 40vh;
+`;
 
   return(
     <>
-    <ContactHeader>Contact</ContactHeader>
-    <ContactLinks>
-      <ul style={center}>
-          <li ><a  href="https://www.linkedin.com/in/mekinsie/" target="_blank">LINKEDIN</a></li>
-          <li><a href="mailto:mekinsie.aja@gmail.com" target="_blank">EMAIL</a></li>
-          <li><a href="https://github.com/mekinsie" target="_blank">GITHUB</a></li>
-      </ul>
-    </ContactLinks>
+    <ContactDiv id="contact">
+      <ContactHeader>Contact</ContactHeader>
+      <ContactLinks>
+        <ul style={center}>
+            <li ><a  href="https://www.linkedin.com/in/mekinsie/" target="_blank">LINKEDIN</a></li>
+            <li><a href="mailto:mekinsie.aja@gmail.com" target="_blank">EMAIL</a></li>
+            <li><a href="https://github.com/mekinsie" target="_blank">GITHUB</a></li>
+        </ul>
+      </ContactLinks>
+    </ContactDiv>
     </>
   )
 }

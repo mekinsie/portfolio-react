@@ -1,7 +1,8 @@
 import React from "react";
 import Home from './Home';
-import FadeIn from 'react-fade-in';
 import Nav from './Nav'
+import About from './About'
+import Works from './Works'
 import Contact from './Contact'
 
 
@@ -9,7 +10,6 @@ class PortfolioControl extends React.Component {
   constructor(props){
     super(props);
     this.state={
-
     }
   }
 
@@ -18,6 +18,8 @@ class PortfolioControl extends React.Component {
       <>
         <Nav/>
         <Home />
+        <About />
+        <Works />
         <Contact />
       </>
     )
