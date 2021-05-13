@@ -12,7 +12,7 @@ function About(){
   margin-bottom: 20px;
   font-size: 50px;
   text-align: center;
-  font-family: 'Switzer-Medium';
+  font-family: 'Boska-Medium';
   `;
 
   const AboutParagraph = styled.p`
@@ -20,7 +20,7 @@ function About(){
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
-  width: 800px;
+  width: 600px;
 `;
 
   const List = styled.ul`
@@ -33,12 +33,16 @@ function About(){
     height: 200px;
     width: 800px;
     margin: auto;
+    // font-family: 'Switzer-Medium';
+
 `;
 
 
   const center = {
     textAlign: 'center',
-    paddingTop: '25px'
+    paddingTop: '25px',
+    fontFamily: 'Boska-Medium'
+
   }
 
   return(
@@ -57,21 +61,21 @@ function About(){
       <div>
       <h2 style={center}>Technologies</h2>
           <List>
-            <h3>languages</h3>
+            <h3>LANGUAGES</h3>
             <li>Javascript</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>SCSS</li><br></br>
-            <h3>libraries</h3>
+            <h3>LIBRARIES</h3>
             <li>React</li>
             <li>Redux.js</li>
             <li>jQuery</li>
             <li>Sinatra</li><br></br>
-            <h3>frameworks</h3>
+            <h3>FRAMEWORKS</h3>
             <li>React</li>
             <li>Rails</li>
             <li>Bootstrap</li><br></br><br></br><br></br>
-          <h3>Other Tools</h3>
+          <h3>OTHER TOOLS</h3>
             <li>Jest</li>
             <li>Capybara</li>
             <li>Git</li>
