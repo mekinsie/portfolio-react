@@ -34,7 +34,7 @@ function Home(){
       <NameHeader>Callahan</NameHeader>
     </FadeIn>
     <FadeIn transitionDuration='2500'>
-      <Subheader> Software Developer</Subheader>
+      <Subheader>Full-Stack Software Developer</Subheader>
     </FadeIn>
     </Head>
     </>

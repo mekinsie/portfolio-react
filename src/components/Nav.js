@@ -4,8 +4,6 @@ import FadeIn from 'react-fade-in';
 function Nav(){
 
   const styledNav = {
-    // marginLeft: '30px',
-    // marginTop: '20px',
     top: '20px',
     left: '30px',
     position: 'fixed'

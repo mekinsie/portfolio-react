@@ -28,8 +28,10 @@ const center = {
 
 const Description = styled.p`
 font-family: Lato, sans-serif;
-padding-bottom: 30px;
+text-align: left;
+padding-bottom: 40px;
 width: 600px;
+font-size: 17px;
 `;
 
   return(
