@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 function Works(){
+  const WorksDiv = styled.div`
+  height: 900px;
+  `;
 
   const WorksHeader = styled.h1`
   font-size: 50px;
@@ -22,9 +25,6 @@ const center = {
   textAlign: 'center'
 }
 
-const WorksDiv = styled.div`
-height: 100vh;
-`;
 
   return(
     <>
