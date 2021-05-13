@@ -57,34 +57,6 @@ function About(){
       <AboutParagraph>
         In my free time I like to rock climb, hike, play the piano, eat other people's food, and live slowly. I believe in minimalism as a design principle and as a lifestyle.
       </AboutParagraph>
-      <div>
-      <h2 style={center}>Technologies</h2>
-          <List>
-            <h3>LANGUAGES</h3>
-            <li>Javascript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SCSS</li><br></br>
-            <h3>LIBRARIES</h3>
-            <li>React</li>
-            <li>Redux.js</li>
-            <li>jQuery</li>
-            <li>Sinatra</li><br></br>
-            <h3>FRAMEWORKS</h3>
-            <li>React</li>
-            <li>Rails</li>
-            <li>Bootstrap</li><br></br><br></br><br></br>
-          <h3>OTHER TOOLS</h3>
-            <li>Jest</li>
-            <li>Capybara</li>
-            <li>Git</li>
-            <li>Firebase</li>
-            <li>PostgreSQL</li>
-            <li>Firebase</li>
-            <li>Docker</li>
-            <li>Webpack</li>
-          </List>
-      </div>
     </AboutDiv>
     </>
   )

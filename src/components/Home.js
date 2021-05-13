@@ -1,7 +1,6 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
 import styled from 'styled-components';
-import Nav from './Nav'
 
 const NameHeader = styled.h1`
   font-size: 100px;

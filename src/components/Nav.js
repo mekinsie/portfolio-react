@@ -20,9 +20,12 @@ function Nav(){
               <li><a href="#about">ABOUT</a></li>
           </FadeIn>
           <FadeIn transitionDuration='1900' delay="1000">
-              <li><a href="#works">WORKS</a></li>
+              <li><a href="#skills">Skills</a></li>
           </FadeIn>
           <FadeIn transitionDuration='2300' delay="1000">
+              <li><a href="#works">WORKS</a></li>
+          </FadeIn>
+          <FadeIn transitionDuration='2500' delay="1000">
               <li><a href="#contact">CONTACT</a></li>
           </FadeIn>
         </ul>
