@@ -19,7 +19,7 @@ font-family: 'Boska-Medium';
 
 const Head = styled.div`
 margin-top: 100px;
-margin-left: 50px;
+margin-left: 70px;
 `;
 
 function Home(){
