@@ -25,6 +25,7 @@ function About(){
 
   const List = styled.ul`
     padding-top: 50px;
+    padding-left: 30px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
