@@ -18,14 +18,14 @@ font-family: 'Boska-Medium';
 `;
 
 const Head = styled.div`
-margin-top: 100px;
+margin-top: 300px;
 margin-left: 70px;
+height: 80vh;
 `;
 
 function Home(){
   return(
     <>
-  {/* <Nav/> */}
     <Head>
     <FadeIn transitionDuration='1500'>
       <NameHeader>Mekinsie</NameHeader>

@@ -2,6 +2,7 @@ import React from "react";
 import Home from './Home';
 import FadeIn from 'react-fade-in';
 import Nav from './Nav'
+import Contact from './Contact'
 
 
 class PortfolioControl extends React.Component {
@@ -17,6 +18,7 @@ class PortfolioControl extends React.Component {
       <>
         <Nav/>
         <Home />
+        <Contact />
       </>
     )
   }
