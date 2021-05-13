@@ -1,0 +1,13 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+@import url('boska.css');
+@import url('./switzer.css');
+@import url('general-sans.css');
+
+
+body {
+  /* font-family: 'Switzer-Medium'; */
+}
+
