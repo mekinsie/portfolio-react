@@ -4,7 +4,7 @@ import styled from 'styled-components';
 function Skills(){
 
   const SkillsDiv = styled.div`
-  height: 1000px;
+  height: 100vh;
   width: 600px;
   margin: auto;
   `;

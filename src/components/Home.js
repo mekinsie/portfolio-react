@@ -16,9 +16,10 @@ font-family: 'Boska-Medium';
 `;
 
 const Head = styled.div`
-margin-top: 300px;
+margin-top: 50vh;
 margin-left: 35px;
-height: 80vh;
+height: 100vh;
+
 `;
 
 function Home(){

@@ -4,13 +4,13 @@ import styled from 'styled-components';
 function About(){
 
   const AboutDiv = styled.div`
-  height: 1000px;
+  height: 100vh;
   margin: auto;
   width: 600px;
   `;
 
   const AboutHeader = styled.h1`
-  padding-top: 30px;
+  padding-top: 50px;
   margin-bottom: 20px;
   font-size: 50px;
   // text-align: center;
