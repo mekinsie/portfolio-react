@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 function Works(){
   const WorksDiv = styled.div`
-  height: 1000px;
+  height: 900px;
   margin-bottom: 100px;
   width: 600px;
   margin: auto;

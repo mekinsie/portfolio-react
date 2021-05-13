@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 const NameHeader = styled.h1`
   font-size: 100px;
-  // text-align: center;
   color: black;
   font-family: 'Switzer-Medium';
   margin-bottom: 0px;
@@ -16,10 +15,9 @@ font-family: 'Boska-Medium';
 `;
 
 const Head = styled.div`
-margin-top: 50vh;
+margin-top: 45vh;
 margin-left: 35px;
-height: 100vh;
-
+height: 80vh;
 `;
 
 function Home(){

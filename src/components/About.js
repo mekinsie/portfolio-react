@@ -4,7 +4,7 @@ import styled from 'styled-components';
 function About(){
 
   const AboutDiv = styled.div`
-  height: 100vh;
+  height: 600px;
   margin: auto;
   width: 600px;
   `;

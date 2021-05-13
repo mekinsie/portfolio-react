@@ -4,14 +4,13 @@ import styled from 'styled-components';
 function Skills(){
 
   const SkillsDiv = styled.div`
-  height: 100vh;
+  height: 650px;
   width: 600px;
   margin: auto;
   `;
 
   const List = styled.ul`
   padding-top: 50px;
-  // margin-left: 30px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

@@ -5,7 +5,7 @@ import styled from 'styled-components';
 function Contact(){
 
   const ContactDiv = styled.div`
-  height: 80vh;
+  height: 400px;
   width: 600px;
   margin: auto;
   `;
