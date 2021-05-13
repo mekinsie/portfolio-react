@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 function Works(){
   const WorksDiv = styled.div`
-  height: 900px;
+  height: 1000px;
   `;
 
   const WorksHeader = styled.h1`

@@ -3,17 +3,19 @@ import styled from 'styled-components';
 
 function About(){
 
+  const AboutDiv = styled.div`
+  height: 1000px;
+  `;
+
   const AboutHeader = styled.h1`
+  padding-top: 80px;
+  margin-bottom: 20px;
   font-size: 50px;
   text-align: center;
   font-family: 'Switzer-Medium';
-  margin-bottom: 20px;
-  padding-top: 40px;
   `;
 
   const AboutParagraph = styled.p`
-  // text-align: center;
-  // font-family: 'Switzer-Medium';
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -22,7 +24,7 @@ function About(){
 `;
 
   const List = styled.ul`
-    padding-top: 20px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -32,9 +34,6 @@ function About(){
     margin: auto;
 `;
 
-  const AboutDiv = styled.div`
-  height: 100vh;
-  `;
 
   const center = {
     textAlign: 'center',
@@ -80,7 +79,6 @@ function About(){
             <li>Firebase</li>
             <li>Docker</li>
             <li>Webpack</li>
-            <li>Test-driven development</li>
           </List>
       </div>
     </AboutDiv>
