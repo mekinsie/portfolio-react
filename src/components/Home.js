@@ -25,7 +25,7 @@ margin-left: 50px;
 function Home(){
   return(
     <>
-  <Nav/>
+  {/* <Nav/> */}
     <Head>
     <FadeIn transitionDuration='1500'>
       <NameHeader>Mekinsie</NameHeader>

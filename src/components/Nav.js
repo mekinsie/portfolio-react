@@ -9,6 +9,7 @@ function Nav(){
         <li><a href="#">ABOUT</a></li>
         <li><a href="#">WORKS</a></li>
         <li><a href="#">CONTACT</a></li>
+        <li><a href="#">TECHNOLOGIES</a></li>
       </ul>
     </FadeIn>
     </>
