@@ -30,6 +30,11 @@ function Home(){
       <Subheader>Software Developer</Subheader>
       </FadeIn>
     </div>
+    <ul>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">WORKS</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
     </>
   )
 }
