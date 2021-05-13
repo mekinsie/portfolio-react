@@ -8,7 +8,7 @@ function Works(){
   text-align: center;
   font-family: 'Switzer-Medium';
   margin-bottom: 20px;
-  padding-top: 30px;
+  padding-top: 5%;
 `;
 
 const WorksLinks = styled.div`
@@ -23,7 +23,7 @@ const center = {
 }
 
 const WorksDiv = styled.div`
-height: 70vh;
+height: 100vh;
 `;
 
   return(

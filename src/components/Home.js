@@ -26,7 +26,7 @@ height: 80vh;
 function Home(){
   return(
     <>
-    <Head id='home'>
+    <Head>
     <FadeIn transitionDuration='1500'>
       <NameHeader>Mekinsie</NameHeader>
     </FadeIn>
