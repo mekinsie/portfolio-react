@@ -4,6 +4,12 @@ import styled from 'styled-components';
 
 function Contact(){
 
+  const ContactDiv = styled.div`
+  height: 500px;
+  width: 600px;
+  margin: auto;
+  `;
+
   const ContactHeader = styled.h1`
   font-size: 50px;
   text-align: center;
@@ -23,9 +29,6 @@ const center = {
   textAlign: 'center'
 }
 
-const ContactDiv = styled.div`
-height: 500px;
-`;
 
   return(
     <>

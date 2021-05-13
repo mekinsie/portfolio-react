@@ -5,44 +5,21 @@ function About(){
 
   const AboutDiv = styled.div`
   height: 1000px;
+  margin: auto;
+  width: 600px;
   `;
 
   const AboutHeader = styled.h1`
   padding-top: 30px;
   margin-bottom: 20px;
   font-size: 50px;
-  text-align: center;
+  // text-align: center;
   font-family: 'Boska-Medium';
   `;
 
   const AboutParagraph = styled.p`
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 30px;
-  width: 600px;
 `;
-
-  const List = styled.ul`
-    padding-top: 50px;
-    padding-left: 30px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    height: 200px;
-    width: 800px;
-    margin: auto;
-    // font-family: 'Switzer-Medium';
-
-`;
-
-  const center = {
-    textAlign: 'center',
-    paddingTop: '25px',
-    fontFamily: 'Boska-Medium'
-
-  }
 
   return(
     <>

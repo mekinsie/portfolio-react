@@ -5,31 +5,32 @@ function Skills(){
 
   const SkillsDiv = styled.div`
   height: 1000px;
+  width: 600px;
+  margin: auto;
   `;
 
   const List = styled.ul`
-    padding-top: 50px;
-    padding-left: 30px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    height: 350px;
-    width: 600px;
-    margin: auto;
+  padding-top: 50px;
+  // margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 350px;
 `;
 
-  const center = {
-    textAlign: 'center',
-    paddingTop: '50px',
-    fontFamily: 'Boska-Medium',
-    fontSize: '50px'
-  }
+  const SkillsHeader = styled.h1 `
+  // text-align: center;
+  // margin-left: 30px;
+  padding-top: 50px;
+  font-family: Boska-Medium;
+  font-size: 50px;
+  `
+  ;
 
   return(
     <>
     <SkillsDiv id="skills">
-      <h1 style={center}>Skills</h1>
+      <SkillsHeader>Skills</SkillsHeader>
           <List>
             <h3>LANGUAGES</h3>
             <li>Javascript</li>
@@ -45,7 +46,7 @@ function Skills(){
             <li>React</li>
             <li>Rails</li>
             <li>Bootstrap</li><br></br><br></br>
-          <h3>OTHER TOOLS</h3>
+            <h3>OTHER TOOLS</h3>
             <li>Jest</li>
             <li>Capybara</li>
             <li>Git</li>

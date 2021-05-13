@@ -17,7 +17,7 @@ font-family: 'Boska-Medium';
 
 const Head = styled.div`
 margin-top: 300px;
-margin-left: 70px;
+margin-left: 35px;
 height: 80vh;
 `;
 

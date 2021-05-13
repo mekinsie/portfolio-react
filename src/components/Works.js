@@ -5,7 +5,9 @@ function Works(){
   const WorksDiv = styled.div`
   height: 1000px;
   margin-bottom: 100px;
-  text-align: center;
+  width: 600px;
+  margin: auto;
+  // text-align: center;
   `;
 
   const WorksHeader = styled.h1`
@@ -22,10 +24,7 @@ function Works(){
 
 
   const Description = styled.p`
-  margin-left: auto;
-  margin-right: auto;
   padding-bottom: 50px;
-  width: 600px;
   font-size: 17px;
   `;
 
