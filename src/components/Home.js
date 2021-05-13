@@ -7,21 +7,29 @@ const NameHeader = styled.h1`
   text-align: center;
   color: black;
   font-family: 'Switzer-Medium';
+  margin-bottom: 0px;
 `;
 
 const Subheader = styled.p`
 font-size:30px;
 text-align: center;
 font-family: 'Boska-Medium';
-
 `;
 
 function Home(){
   return(
     <>
+    <div>
+    <FadeIn transitionDuration='1500'>
       <NameHeader>Mekinsie</NameHeader>
+      </FadeIn>
+      <FadeIn transitionDuration='2000'>
       <NameHeader>Callahan</NameHeader>
+      </FadeIn>
+      <FadeIn transitionDuration='2500'>
       <Subheader>Software Developer</Subheader>
+      </FadeIn>
+    </div>
     </>
   )
 }
