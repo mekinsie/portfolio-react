@@ -10,13 +10,13 @@ function Contact(){
   // font-family: 'Switzer-Medium';
   font-family: 'Boska-Medium';
   margin-bottom: 20px;
-  padding-top: 30px;
+  padding-top: 100px;
 `;
 
-const ContactLinks = styled.div`
-font-size: 20px;
-padding-bottom: 50px;
-`;
+  const ContactLinks = styled.div`
+  font-size: 20px;
+  padding-bottom: 50px;
+  `;
 
 const center = {
   display: 'table',
@@ -25,7 +25,7 @@ const center = {
 }
 
 const ContactDiv = styled.div`
-height: 40vh;
+height: 500px;
 `;
 
   return(

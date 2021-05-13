@@ -8,7 +8,7 @@ function About(){
   `;
 
   const AboutHeader = styled.h1`
-  padding-top: 80px;
+  padding-top: 30px;
   margin-bottom: 20px;
   font-size: 50px;
   text-align: center;
@@ -36,7 +36,6 @@ function About(){
     // font-family: 'Switzer-Medium';
 
 `;
-
 
   const center = {
     textAlign: 'center',
