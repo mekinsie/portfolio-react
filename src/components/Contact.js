@@ -14,6 +14,7 @@ function Contact(){
   font-size: 50px;
   text-align: center;
   font-family: 'Boska-Medium';
+  font-weight: 100;
   margin-bottom: 20px;
   padding-top: 100px;
 `;

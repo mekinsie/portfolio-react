@@ -14,6 +14,7 @@ function Works(){
   margin-bottom: 20px;
   font-size: 50px;
   font-family: 'Boska-Medium';
+  font-weight: 100;
 `;
 
   const WorksLinks = styled.div`

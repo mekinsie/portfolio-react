@@ -6,7 +6,8 @@ const NameHeader = styled.h1`
   font-size: 100px;
   font-family: 'Switzer-Medium';
   color: rgb(36, 36, 36);
-
+  // font-family: 'Cormorant Upright', serif;
+  // font-weight: 100;
   margin-bottom: 0px;
 `;
 

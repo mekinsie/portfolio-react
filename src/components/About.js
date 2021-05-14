@@ -13,8 +13,8 @@ function About(){
   padding-top: 50px;
   margin-bottom: 20px;
   font-size: 50px;
-  // text-align: center;
   font-family: 'Boska-Medium';
+  font-weight: 100;
   `;
 
   const AboutParagraph = styled.p`

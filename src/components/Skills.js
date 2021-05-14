@@ -23,6 +23,8 @@ function Skills(){
   padding-top: 50px;
   font-family: Boska-Medium;
   font-size: 50px;
+  font-weight: 100;
+
   `
   ;
 
