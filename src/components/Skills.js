@@ -33,6 +33,7 @@ function Skills(){
           <List>
             <h3>LANGUAGES</h3>
             <li>Javascript</li>
+            <li>Ruby</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>SCSS</li><br></br>
