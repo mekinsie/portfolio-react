@@ -24,8 +24,22 @@ html {
 body {
   height: 100%;
   font-family: 'Switzer-Light';
-  background-color: rgb(240, 240, 240);
-  color: rgb(52, 48, 48);
+  background-color: rgb(241, 241, 241);
+  color: rgb(48, 46, 46);
+  // color: rgb(36, 36, 36);
+}
+
+body::before {
+  content: "";
+  z-index: -1;
+  background-image: url('../img/noise.gif');
+  position: fixed;
+  background-repeat:repeat;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.045;
 }
 
 a {

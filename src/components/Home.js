@@ -5,7 +5,8 @@ import styled from 'styled-components';
 const NameHeader = styled.h1`
   font-size: 100px;
   font-family: 'Switzer-Medium';
-  color: black;
+  color: rgb(36, 36, 36);
+
   margin-bottom: 0px;
 `;
 
