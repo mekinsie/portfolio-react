@@ -3,11 +3,10 @@ import styled from 'styled-components';
 
 function Works(){
   const WorksDiv = styled.div`
-  height: 900px;
+  height: 1200px;
   margin-bottom: 100px;
   width: 600px;
   margin: auto;
-  // text-align: center;
   `;
 
   const WorksHeader = styled.h1`
@@ -28,29 +27,37 @@ function Works(){
   font-size: 17px;
   `;
 
+  const float = {
+    float: 'right'
+  }
+
   return(
     <>
     <WorksDiv id="works">
       <WorksHeader>Works</WorksHeader>
       <WorksLinks>
-        <a href="https://flash-chords.herokuapp.com/" target="_blank">Flash Chords</a>
-        <h5>Ruby on Rails | PostgreSQL | Heroku | Devise | SCSS.</h5>
-        <Description>Flash Chords is a web application where you can learn piano chords through the use of flash cards. Sign up to save and customize your own flashcard sets.</Description>
+        <a href="https://flash-chords.herokuapp.com/" target="_blank">FLASH CHORDS</a>
+        <h5>Ruby on Rails | PostgreSQL | Heroku | Devise | SCSS <a style={float} href="https://github.com/mekinsie/piano_pals" target="_blank">GitHub Repo</a></h5>
+        <Description>Flash Chords is a web application where users can learn piano chords through the use of flash cards. Users can sign up to save and customize their own flashcard sets. </Description>
 
-        <a href="https://www.memoryspace.net/" target="_blank">Memory Space</a>
-        <h5>React | Redux | Firebase </h5>
-        <Description>This application is designed as a community memory space. Users can add their favorite or insightful memories to share with other users.</Description>
+        <a href="https://www.memoryspace.net/" target="_blank">MEMORY SPACE</a>
+        <h5>React | Redux | Firebase <a style={float} href="https://github.com/mekinsie/memory-space" target="_blank">GitHub Repo</a> </h5>
+        <Description>This application is designed as a community memory space. Users can add their favorite or insightful memories to share with other users. It is currently populated with memories from anonymous users.</Description>
 
-        <a href="https://hitomis-sushi.herokuapp.com/" target="_blank">Hitomi's Sushi</a>
-        <h5>Ruby on Rails | PostgreSQL | Heroku | SCSS.</h5>
-        <Description>A sushi review website where users can login to add, edit, and delete their own reviews. Admin may add, edit and delete products while also deleting reviews. The database is seeded using the Faker gem.</Description>
+        <a href="https://www.mekinsie.com/" target="_blank">PORTFOLIO</a>
+        <h5>React | SCSS <a style={float} href="https://github.com/mekinsie/portfolio-react" target="_blank">GitHub Repo</a></h5>
+        <Description>This portolfio is a personal project to display my work. My design goal is for it to be minimalist and dynamic.</Description>
 
-        <a href="https://mekinsie.github.io/pig-dice/" target="_blank">Pig Dice</a>
-        <h5>Javascript | jQuery | HTML5 | CSS | Bootstrap</h5>
+        <a href="https://hitomis-sushi.herokuapp.com/" target="_blank">HITOMI'S SUSHI</a>
+        <h5>Ruby on Rails | PostgreSQL | Heroku | SCSS <a style={float} href="https://github.com/mekinsie/hitomis-sushi" target="_blank">GitHub Repo</a></h5>
+        <Description>A sushi review website where users can login to add, edit, and delete their own reviews. Admin may add, edit and delete products while also deleting reviews. The database is seeded using the Faker gem. </Description>
+
+        <a href="https://mekinsie.github.io/pig-dice/" target="_blank">PIG DICE</a>
+        <h5>Javascript | jQuery | HTML5 | CSS | Bootstrap <a style={float} href="https://github.com/mekinsie/pig-dice" target="_blank">GitHub Repo</a></h5>
         <Description>A game of Pig Dice. The purpose of this project was to practice using Object-Oriented JavaScript. Co-authored by <a href="https://github.com/KirbyPaint" target="_blank">KirbyPaint.</a></Description>
 
-        <a href="https://mekinsie.github.io/language-suggester/" target="_blank">Language Suggester</a>
-        <h5>Javascript | jQuery | HTML5 | CSS | Bootstrap</h5>
+        <a href="https://mekinsie.github.io/language-suggester/" target="_blank">LANGUAGE SUGGESTER</a>
+        <h5>Javascript | jQuery | HTML5 | CSS | Bootstrap <a style={float} href="https://github.com/mekinsie/language-suggester" target="_blank">GitHub Repo</a></h5>
         <Description>A lighthearted quiz that suggests the best coding language for you.</Description>
       </WorksLinks>
     </WorksDiv>
