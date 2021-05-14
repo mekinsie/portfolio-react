@@ -4,20 +4,20 @@ import styled from 'styled-components';
 
 const NameHeader = styled.h1`
   font-size: 100px;
-  color: black;
   font-family: 'Switzer-Medium';
+  color: black;
   margin-bottom: 0px;
 `;
 
 const Subheader = styled.p`
-font-size:30px;
-font-family: 'Boska-Medium';
+  font-size:30px;
+  font-family: 'Boska-Medium';
 `;
 
 const Head = styled.div`
-margin-top: 45vh;
-margin-left: 35px;
-height: 80vh;
+  margin-top: 45vh;
+  margin-left: 35px;
+  height: 80vh;
 `;
 
 function Home(){
