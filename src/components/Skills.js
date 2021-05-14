@@ -35,7 +35,6 @@ function Skills(){
             <li>Javascript</li>
             <li>Ruby</li>
             <li>HTML</li>
-            <li>CSS</li>
             <li>SCSS</li><br></br>
             <h3>LIBRARIES</h3>
             <li>React</li>
