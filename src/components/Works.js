@@ -3,29 +3,29 @@ import styled from 'styled-components';
 
 function Works(){
   const WorksDiv = styled.div`
-  height: 1200px;
-  margin-bottom: 100px;
-  width: 600px;
-  margin: auto;
+    height: 1200px;
+    margin-bottom: 100px;
+    width: 600px;
+    margin: auto;
   `;
 
   const WorksHeader = styled.h1`
-  padding-top: 30px;
-  margin-bottom: 20px;
-  font-size: 50px;
-  font-family: 'Boska-Medium';
-  font-weight: 100;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Boska-Medium';
+    font-weight: 100;
 `;
 
   const WorksLinks = styled.div`
-  font-size: 20px;
-  padding-bottom: 0px;
+    font-size: 20px;
+    padding-bottom: 0px;
   `;
 
 
   const Description = styled.p`
-  padding-bottom: 50px;
-  font-size: 17px;
+    padding-bottom: 50px;
+    font-size: 17px;
   `;
 
   const float = {

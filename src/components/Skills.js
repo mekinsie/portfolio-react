@@ -4,29 +4,27 @@ import styled from 'styled-components';
 function Skills(){
 
   const SkillsDiv = styled.div`
-  height: 650px;
-  width: 600px;
-  margin: auto;
+    height: 650px;
+    width: 600px;
+    margin: auto;
   `;
 
   const List = styled.ul`
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 350px;
-`;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 350px;
+  `;
 
   const SkillsHeader = styled.h1 `
-  // text-align: center;
-  // margin-left: 30px;
-  padding-top: 50px;
-  font-family: Boska-Medium;
-  font-size: 50px;
-  font-weight: 100;
-
-  `
-  ;
+    // text-align: center;
+    // margin-left: 30px;
+    padding-top: 50px;
+    font-family: Boska-Medium;
+    font-size: 50px;
+    font-weight: 100;
+  `;
 
   return(
     <>

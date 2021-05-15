@@ -12,7 +12,7 @@
 
 ## Description
 
-_This portfolio contains an about me, background, list of current works, and my contact information. I created it to showcase my skills as a developer and designer._
+_This portfolio contains an about me, list of current works, and my contact information. I created it to showcase my skills as a developer and designer._
 
 ## Setup/Installation Requirements
 * _My portfolio can be viewed <a href="http://www.mekinsie.com/" target="_blank">here</a>._

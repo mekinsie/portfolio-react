@@ -6,7 +6,6 @@ import Skills from './Skills'
 import Works from './Works'
 import Contact from './Contact'
 
-
 class PortfolioControl extends React.Component {
   constructor(props){
     super(props);
@@ -17,7 +16,7 @@ class PortfolioControl extends React.Component {
   render(){
     return(
       <>
-        <Nav/>
+        <Nav />
         <Home />
         <About />
         <Skills />
