@@ -24,6 +24,7 @@ function Skills(){
     font-family: Boska-Medium;
     font-size: 50px;
     font-weight: 100;
+    color: #d05c35;
   `;
 
   return(

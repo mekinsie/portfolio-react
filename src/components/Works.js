@@ -15,6 +15,7 @@ function Works(){
     font-size: 50px;
     font-family: 'Boska-Medium';
     font-weight: 100;
+    color: #d05c35;
 `;
 
   const WorksLinks = styled.div`

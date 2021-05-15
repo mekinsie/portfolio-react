@@ -15,6 +15,7 @@ function About(){
     font-size: 50px;
     font-family: 'Boska-Medium';
     font-weight: 100;
+    color: #d05c35;
   `;
 
   const AboutParagraph = styled.p`

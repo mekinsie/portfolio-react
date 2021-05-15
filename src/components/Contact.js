@@ -16,6 +16,7 @@ function Contact(){
     font-weight: 100;
     margin-bottom: 20px;
     padding-top: 100px;
+    color: #d05c35;
   `;
 
   const ContactLinks = styled.div`

@@ -4,16 +4,18 @@ import styled from 'styled-components';
 
 const NameHeader = styled.h1`
   font-size: 100px;
-  font-family: 'Switzer-Medium';
+  // font-family: 'Switzer-Medium';
   color: rgb(36, 36, 36);
-  // font-family: 'Cormorant Upright', serif;
-  // font-weight: 100;
+  font-family: 'Cormorant Upright', serif;
+  font-weight: 100;
   margin-bottom: 0px;
+  color: #d05c35;
 `;
 
 const Subheader = styled.p`
   font-size:30px;
   font-family: 'Boska-Medium';
+  color: rgb(67, 54, 54);
 `;
 
 const Head = styled.div`
@@ -27,10 +29,10 @@ function Home(){
     <>
     <Head>
     <FadeIn transitionDuration='1500'>
-      <NameHeader>Mekinsie</NameHeader>
+      <NameHeader>MEKINSIE</NameHeader>
     </FadeIn>
     <FadeIn transitionDuration='2000'>
-      <NameHeader>Callahan</NameHeader>
+      <NameHeader>CALLAHAN</NameHeader>
     </FadeIn>
     <FadeIn transitionDuration='2500'>
       <Subheader>Full-Stack Software Developer</Subheader>

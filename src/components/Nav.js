@@ -6,7 +6,7 @@ function Nav(){
   const styledNav = {
     top: '20px',
     left: '40px',
-    position: 'fixed'
+    position: 'fixed',
   }
 
   return(
