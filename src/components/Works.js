@@ -46,11 +46,11 @@ function Works(){
       <WorksLinks>
         <a style={font} href="https://flash-chords.herokuapp.com/" target="_blank">FLASH CHORDS</a>
         <h5>Ruby on Rails | PostgreSQL | Heroku | Devise | SCSS <a style={float} href="https://github.com/mekinsie/piano_pals" target="_blank">GitHub Repo</a></h5>
-        <Description>Flash Chords is a web application where users can learn piano chords through the use of flash cards. Users can sign up to save and customize their own flashcard sets. </Description>
+        <Description>Flash Chords is a web application where users can learn piano chords through the use of flash cards. Users can sign up to save and customize their own flashcard sets. Co-authored by <a href="https://github.com/MicahOlson" target="_blank">Micah Olsen</a> and <a href="https://github.com/CrankyJones" target="_blank">Geof Rosenmund.</a></Description>
 
         <a style={font}  href="https://www.memoryspace.net/" target="_blank">MEMORY SPACE</a>
         <h5>React | Redux | Firebase <a style={float} href="https://github.com/mekinsie/memory-space" target="_blank">GitHub Repo</a> </h5>
-        <Description>This application is designed as a community memory space. Users can add their favorite or insightful memories to share with other users. It is currently populated with memories from anonymous users.</Description>
+        <Description>This application is designed as a community memory space. Users can add their favorite or insightful memories to share with other users. It is currently populated with memories from anonymous users. Co-authored by <a href="https://github.com/Lo-GR" target="_blank">Logan Roth.</a></Description>
 
         <a style={font} href="https://www.mekinsie.com/" target="_blank">PORTFOLIO</a>
         <h5>React | SCSS <a style={float} href="https://github.com/mekinsie/portfolio-react" target="_blank">GitHub Repo</a></h5>
