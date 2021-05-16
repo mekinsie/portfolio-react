@@ -21,6 +21,9 @@ function About(){
 
   const AboutParagraph = styled.p`
     padding-top: 30px;
+    font-family: 'Cormorant', serif;
+    font-size: 17px;
+    line-height: 30px
 `;
 
   return(

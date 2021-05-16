@@ -11,6 +11,8 @@ function Skills(){
   `;
 
   const List = styled.ul`
+    font-family: 'Cormorant', serif;
+    font-size: 17px;
     padding-top: 50px;
     display: flex;
     flex-direction: column;

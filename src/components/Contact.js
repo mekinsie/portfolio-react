@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 function Contact(){
 
   const ContactDiv = styled.div`
-    height: 400px;
+    height: 450px;
     width: 600px;
     margin: auto;
   `;
