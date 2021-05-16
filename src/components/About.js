@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Fade from 'react-reveal/Fade';
 
 function About(){
 
@@ -25,7 +26,11 @@ function About(){
   return(
     <>
     <AboutDiv id="about">
+    <Fade left duration="1500">
       <AboutHeader>About</AboutHeader>
+    </Fade>
+    <Fade right cascade>
+      <div>
       <AboutParagraph>
         Growing up, I found that my best skills are in logic and design. As I spent some time discovering potential careers, I found that full-stack development is a perfect combination of both. Having a growth mindset and perseverance are qualities I strongly value. I am currently looking for opportunities to work in a tech environment that pushes me to learn and challenge myself.
       </AboutParagraph>
@@ -35,6 +40,8 @@ function About(){
       <AboutParagraph>
         In my free time I like to rock climb, hike, play the piano, and eat other people's food. I believe in minimalism as a design principle and as a lifestyle.
       </AboutParagraph>
+      </div>
+    </Fade>
     </AboutDiv>
     </>
   )

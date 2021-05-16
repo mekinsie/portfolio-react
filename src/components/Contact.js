@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Fade from 'react-reveal/Fade';
 
 function Contact(){
 
@@ -33,14 +34,18 @@ function Contact(){
   return(
     <>
     <ContactDiv id="contact">
-      <ContactHeader>Contact</ContactHeader>
-      <ContactLinks>
-        <ul style={center}>
-          <li ><a href="https://www.linkedin.com/in/mekinsie/" target="_blank">LINKEDIN</a></li>
-          <li><a href="mailto:mekinsie.aja@gmail.com" target="_blank">EMAIL</a></li>
-          <li><a href="https://github.com/mekinsie" target="_blank">GITHUB</a></li>
-        </ul>
-      </ContactLinks>
+      <Fade left duration="1500">
+        <ContactHeader>Contact</ContactHeader>
+      </Fade>
+        <ContactLinks>
+      <Fade right cascade>
+          <ul style={center}>
+            <li ><a href="https://www.linkedin.com/in/mekinsie/" target="_blank">LINKEDIN</a></li>
+            <li><a href="mailto:mekinsie.aja@gmail.com" target="_blank">EMAIL</a></li>
+            <li><a href="https://github.com/mekinsie" target="_blank">GITHUB</a></li>
+          </ul>
+      </Fade>
+        </ContactLinks>
     </ContactDiv>
     </>
   )

@@ -27,17 +27,17 @@ const Head = styled.div`
 function Home(){
   return(
     <>
-    <Head>
-    <FadeIn transitionDuration='1500'>
-      <NameHeader>MEKINSIE</NameHeader>
-    </FadeIn>
-    <FadeIn transitionDuration='2000'>
-      <NameHeader>CALLAHAN</NameHeader>
-    </FadeIn>
-    <FadeIn transitionDuration='2500'>
-      <Subheader>Full-Stack Software Developer</Subheader>
-    </FadeIn>
-    </Head>
+      <Head>
+        <FadeIn transitionDuration='1500'>
+          <NameHeader>MEKINSIE</NameHeader>
+        </FadeIn>
+        <FadeIn transitionDuration='2000'>
+          <NameHeader>CALLAHAN</NameHeader>
+        </FadeIn>
+        <FadeIn transitionDuration='2500'>
+          <Subheader>Full-Stack Software Developer</Subheader>
+        </FadeIn>
+      </Head>
     </>
   )
 }

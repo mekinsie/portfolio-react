@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Fade from 'react-reveal/Fade';
 
 function Skills(){
 
@@ -29,8 +30,11 @@ function Skills(){
 
   return(
     <>
-    <SkillsDiv id="skills">
-      <SkillsHeader>Skills</SkillsHeader>
+      <SkillsDiv id="skills">
+        <Fade left duration="1500">
+          <SkillsHeader>Skills</SkillsHeader>
+        </Fade>
+        <Fade right duration="1500">
           <List>
             <h3>LANGUAGES</h3>
             <li>Javascript</li>
@@ -56,6 +60,7 @@ function Skills(){
             <li>Docker</li>
             <li>Webpack</li>
           </List>
+        </Fade>
       </SkillsDiv>
     </>
   )
