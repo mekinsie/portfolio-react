@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 function About(){
 
   const AboutDiv = styled.div`
-    height: 800px;
+    height: 750px;
     margin: auto;
     width: 600px;
   `;
