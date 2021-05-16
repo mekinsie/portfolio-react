@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 function Skills(){
 
   const SkillsDiv = styled.div`
-    height: 650px;
+    height: 750px;
     width: 600px;
     margin: auto;
   `;
