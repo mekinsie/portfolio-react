@@ -38,13 +38,17 @@ function Contact(){
         <ContactHeader>Contact</ContactHeader>
       </Fade>
         <ContactLinks>
-      <Fade cascade delay="200">
           <ul style={center}>
+        <Fade delay="180">
             <li ><a href="https://www.linkedin.com/in/mekinsie/" target="_blank">LINKEDIN</a></li>
+          </Fade>
+          <Fade delay="210">
             <li><a href="mailto:mekinsie.aja@gmail.com" target="_blank">EMAIL</a></li>
+          </Fade>
+          <Fade delay="250">
             <li><a href="https://github.com/mekinsie" target="_blank">GITHUB</a></li>
+          </Fade>
           </ul>
-      </Fade>
         </ContactLinks>
     </ContactDiv>
     </>
