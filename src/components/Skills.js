@@ -31,10 +31,10 @@ function Skills(){
   return(
     <>
       <SkillsDiv id="skills">
-        <Fade duration="1500">
+        <Fade duration="1500" delay="150">
           <SkillsHeader>Skills</SkillsHeader>
         </Fade>
-        <Fade duration="1500">
+        <Fade duration="1500" delay="200">
           <List>
             <h3>LANGUAGES</h3>
             <li>Javascript</li>

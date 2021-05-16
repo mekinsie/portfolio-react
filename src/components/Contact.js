@@ -34,11 +34,11 @@ function Contact(){
   return(
     <>
     <ContactDiv id="contact">
-      <Fade duration="1500">
+      <Fade duration="1500" delay="150">
         <ContactHeader>Contact</ContactHeader>
       </Fade>
         <ContactLinks>
-      <Fade cascade>
+      <Fade cascade delay="200">
           <ul style={center}>
             <li ><a href="https://www.linkedin.com/in/mekinsie/" target="_blank">LINKEDIN</a></li>
             <li><a href="mailto:mekinsie.aja@gmail.com" target="_blank">EMAIL</a></li>
