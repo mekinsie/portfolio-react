@@ -100,3 +100,11 @@ ul {
 section {
   scroll-behavior: smooth;
 }
+
+#me {
+  display: inline-block;
+  float:right;
+  clear: left;
+  border-radius: 100px;
+  opacity: 0.9;
+}

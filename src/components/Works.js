@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 function Works(){
   const WorksDiv = styled.div`
-    height: 1350px;
+    height: 1400px;
     margin-bottom: 100px;
     width: 600px;
     margin: auto;
@@ -44,7 +44,11 @@ function Works(){
 
   const font = {
     fontFamily: 'Cormorant Upright, serif',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    // border: '0.1px solid #d05c35',
+    // padding: '5px',
+    // borderRadius: '10px',
+    // lineHeight: '40px'
   }
 
   return(
@@ -54,6 +58,11 @@ function Works(){
         <WorksHeader>Works</WorksHeader>
       </Fade>
       <WorksLinks>
+        <Fade delay="150">
+          <a style={font} href="https://sleep-habits-89510.web.app/" target="_blank">SLEEP HABITS</a>
+          <Sub>React | Redux | Heroku | Firebase | SCSS <a style={float} href="https://github.com/mekinsie/sleep-habits" target="_blank">GitHub Repo</a></Sub>
+          <Description>Sleep Habits an app that I am currently working on building. It is an application where users can sign up and log each night's sleep data. The application will create graphs based on the user's sleep data to help visualize areas of improvement. Log in with the email: (example@gmail.com) and password: (example) to quickly experience my work-in-progress.</Description>
+        </Fade>
         <Fade delay="150">
           <a style={font} href="https://flash-chords.herokuapp.com/" target="_blank">FLASH CHORDS</a>
           <Sub>Ruby on Rails | PostgreSQL | Heroku | Devise | SCSS <a style={float} href="https://github.com/mekinsie/piano_pals" target="_blank">GitHub Repo</a></Sub>
@@ -82,12 +91,6 @@ function Works(){
           <a style={font} href="https://mekinsie.github.io/pig-dice/" target="_blank">PIG DICE</a>
           <Sub>Javascript | jQuery | HTML5 | CSS | Bootstrap <a style={float} href="https://github.com/mekinsie/pig-dice" target="_blank">GitHub Repo</a></Sub>
           <Description>A game of Pig Dice. The purpose of this project was to practice using Object-Oriented JavaScript. Co-authored by <a href="https://github.com/KirbyPaint" target="_blank">KirbyPaint.</a></Description>
-        </Fade>
-
-        <Fade duration="2100" delay="200">
-          <a style={font}  href="https://mekinsie.github.io/language-suggester/" target="_blank">LANGUAGE SUGGESTER</a>
-          <Sub>Javascript | jQuery | HTML5 | CSS | Bootstrap <a style={float} href="https://github.com/mekinsie/language-suggester" target="_blank">GitHub Repo</a></Sub>
-          <Description>A lighthearted quiz that suggests the best coding language for you.</Description>
         </Fade>
       </WorksLinks>
     </WorksDiv>

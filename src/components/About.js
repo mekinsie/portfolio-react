@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
-
+import me from '../img/me.jpg'
 function About(){
 
   const AboutDiv = styled.div`
@@ -29,6 +29,7 @@ function About(){
   return(
     <>
     <AboutDiv id="about">
+      {/* <img id="me" src={me} width="180px"></img> */}
     <Fade duration="1500" delay="150">
       <AboutHeader>About</AboutHeader>
     </Fade>
