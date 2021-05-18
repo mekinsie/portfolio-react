@@ -61,7 +61,7 @@ function Works(){
         <Fade delay="150">
           <a style={font} href="https://sleep-habits-89510.web.app/" target="_blank">SLEEP HABITS</a>
           <Sub>React | Redux | Heroku | Firebase | SCSS <a style={float} href="https://github.com/mekinsie/sleep-habits" target="_blank">GitHub Repo</a></Sub>
-          <Description>Sleep Habits an app that I am currently working on building. It is an application where users can sign up and log each night's sleep data. The application will create graphs based on the user's sleep data to help visualize areas of improvement. Log in with the email: (example@gmail.com) and password: (example) to quickly experience my work-in-progress.</Description>
+          <Description>Sleep Habits an app that I am currently working on building. It is an application where users can sign up and log each night's sleep data. The application will create graphs based on the user's sleep data to help visualize areas of improvement. Log in with the email: (example@gmail.com) and password: (example) to see example data without signing up.</Description>
         </Fade>
         <Fade delay="150">
           <a style={font} href="https://flash-chords.herokuapp.com/" target="_blank">FLASH CHORDS</a>
