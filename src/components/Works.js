@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
 import { useSpring, animated } from 'react-spring'
+import flashChord1 from '../img/flashchordhome.png'
 
 function Works(){
 
@@ -71,9 +72,8 @@ function Works(){
           <a style={font} href="https://flash-chords.herokuapp.com/" target="_blank">FLASH CHORDS</a>
           <Sub>Ruby on Rails | PostgreSQL | Heroku | Devise | SCSS <a style={float} href="https://github.com/mekinsie/piano_pals" target="_blank">GitHub Repo</a></Sub>
           <Description>Flash Chords is a web application where users can learn piano chords through the use of flash cards. Users can sign up to save and customize their own flashcard sets. Co-authored by <a href="https://github.com/MicahOlson" target="_blank">Micah Olsen</a> and <a href="https://github.com/CrankyJones" target="_blank">Geof Rosenmund.</a></Description>
-
-          <animated.div style={springProps}>I will fade in</animated.div>
         </Fade>
+          <animated.div style={springProps}><img src={flashChord1} width='200'></img></animated.div>
 
         <Fade duration="1300" delay="160">
           <a style={font}  href="https://www.memoryspace.net/" target="_blank">MEMORY SPACE</a>
