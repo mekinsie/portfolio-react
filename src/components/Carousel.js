@@ -5,23 +5,24 @@ import { useSpring, animated } from 'react-spring'
 import flashChord1 from '../img/flashchordhome.png'
 
 function Carousel(){
-  const [[index, dir], setIndex] = useState([0, 0])
-  const transitions = useTransition(slides[index], item => item.url, {
+  const [count, setCount] = useState(0);
+  const [reverse, setReverse] = useState(false);
+
+  const transitions = useTransition([count], item => item, {
     from: {
       opacity: 0,
-      transform: `translate3d(${dir === 1 ? 100 : -100}%,0,0) scale(0.5)`
+      marginTop: reverse ? 100 : 10,
+      position: 'absolute',
+      boxShadow: '0px 100px 20px 0px rgba(0,0,0,0.4)'
     },
-    enter: {
-      opacity: 1,
-      transform: "translate3d(0%,0,0) scale(1)"
-    },
-    leave: {
-      opacity: 0,
-      transform: `translate3d(${dir === 1 ? -100 : 100}%,0,0) scale(0.5)`
-    }
+    enter: { opacity: 1, marginTop: 50 },
+    leave: { opacity: 0, marginTop: reverse ? 10 : 100 }
   });
+
   return(
     <>
+
+
     <p>kdjhgkjdfhgk</p>
     </>
   )
