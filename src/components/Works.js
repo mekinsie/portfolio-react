@@ -6,16 +6,15 @@ import flashChord1 from '../img/flashchordhome.png'
 
 function Works(){
 
-  // const springProps = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } })
+  // const springProps = useSpring({
+  //   opacity: 1,
+  //   from: { opacity: 0 },
+  // })
   const [clicked, setClicked] = useState(false);
 
   const size = useSpring({
-    size: clicked ? 300 : 200,
-    // backgroundPosition: clicked ? "50% 100%" : "50% 0%",
-    from: {
-      size: 200
-      // backgroundPosition: "50% 0%"
-    }
+    width: clicked ? "300px" : "200px",
+    // opacity: clicked ? 1 : 0
   })
 
   const WorksDiv = styled.div`
@@ -86,7 +85,7 @@ function Works(){
 
 
 
-          <animated.img src={flashChord1} style={{ height: size, width: size }} onClick={() => setClicked(!clicked)}></animated.img>
+          <animated.img style={size} onClick={()=> setClicked(!clicked)} src={flashChord1}></animated.img><br></br>
 
 
 
