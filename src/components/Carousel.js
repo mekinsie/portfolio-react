@@ -19,6 +19,18 @@ function Carousel(){
     leave: { opacity: 0, marginTop: reverse ? 10 : 100 }
   });
 
+  const prevSlide = () => {
+    let prevSlide = count - 1 < 0 ? cards.length -1 : count -1;
+    setCount(prevSlide);
+    setReverse(true);
+  };
+
+  const nextSlide = () => {
+    let nextSlide = count + 1 < cards.length ? count + 1 : 0;
+    setCount(nextSlide);
+    setReverse(false);
+  }
+
   return(
     <>
 
