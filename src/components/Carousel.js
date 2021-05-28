@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
-import { useSpring, animated } from 'react-spring'
+import { useTransition, animated } from 'react-spring'
 import flashChord1 from '../img/flashchordhome.png'
 
 function Carousel(){
   const [count, setCount] = useState(0);
   const [reverse, setReverse] = useState(false);
+
+  const cards = [
+    flashChord1, flashChord1, flashChord1, flashChord1, flashChord1
+  ]
 
   const transitions = useTransition([count], item => item, {
     from: {
@@ -29,11 +33,23 @@ function Carousel(){
     let nextSlide = count + 1 < cards.length ? count + 1 : 0;
     setCount(nextSlide);
     setReverse(false);
-  }
+  };
 
   return(
     <>
-
+      <div>
+        {transitions.map(({ item, props, key }) => (
+          <animated.div key={key} style={props}>
+            <img src={cards[item]} alt="screenshot of project" />
+          </animated.div>
+        ))}
+      </div>
+      <div className="carousel__prev" onClick={prevSlide}>
+        ◀︎
+      </div>
+      <div className="carousel__next" onClick={nextSlide}>
+        ▶︎
+      </div>
 
     <p>kdjhgkjdfhgk</p>
     </>
