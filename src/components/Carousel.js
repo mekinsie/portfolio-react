@@ -6,16 +6,16 @@ function Carousel(){
   const [count, setCount] = useState(0);
   const [reverse, setReverse] = useState(false);
 
-  // const cards = [
-  //   flashChord1, flashChord1, flashChord1, flashChord1, flashChord1
-  // ]
   const cards = [
-    'https://upload.wikimedia.org/wikipedia/en/f/f5/RWS_Tarot_08_Strength.jpg',
-    'https://upload.wikimedia.org/wikipedia/en/5/53/RWS_Tarot_16_Tower.jpg',
-    'https://upload.wikimedia.org/wikipedia/en/9/9b/RWS_Tarot_07_Chariot.jpg',
-    'https://upload.wikimedia.org/wikipedia/en/d/db/RWS_Tarot_06_Lovers.jpg',
-    'https://upload.wikimedia.org/wikipedia/en/d/de/RWS_Tarot_01_Magician.jpg'
-  ];
+    flashChord1, flashChord1, flashChord1, flashChord1, flashChord1
+  ]
+  // const cards = [
+  //   'https://upload.wikimedia.org/wikipedia/en/f/f5/RWS_Tarot_08_Strength.jpg',
+  //   'https://upload.wikimedia.org/wikipedia/en/5/53/RWS_Tarot_16_Tower.jpg',
+  //   'https://upload.wikimedia.org/wikipedia/en/9/9b/RWS_Tarot_07_Chariot.jpg',
+  //   'https://upload.wikimedia.org/wikipedia/en/d/db/RWS_Tarot_06_Lovers.jpg',
+  //   'https://upload.wikimedia.org/wikipedia/en/d/de/RWS_Tarot_01_Magician.jpg'
+  // ];
 
   const transitions = useTransition([count], item => item, {
     from: {
@@ -44,7 +44,7 @@ function Carousel(){
     <>
     <div>
       <div>
-        {transitions(( item, props, key ) => (
+        {transitions.map(({ item, props, key }) => (
           <animated.div key={key} style={props}>
             <img src={cards[item]} alt="screenshot of project" />
           </animated.div>
