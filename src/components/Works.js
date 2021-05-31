@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
 import { useSpring, animated } from 'react-spring'
 import flashChord1 from '../img/flashchordhome.png'
-import Carousel from './Carousel';
+// import Carousel from './Carousel';
 
 function Works(){
 
@@ -68,8 +68,8 @@ function Works(){
   
   return(
     <>
-    <Carousel/><br></br>
-    <animated.img style={size} onClick={()=> setClicked(!clicked)} src={flashChord1}></animated.img><br></br>
+    {/* <Carousel/><br></br> */}
+    {/* <animated.img style={size} onClick={()=> setClicked(!clicked)} src={flashChord1}></animated.img><br></br> */}
   
     <WorksDiv id="works">
       <Fade duration="1500" delay="150">

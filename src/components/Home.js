@@ -5,11 +5,13 @@ import styled from 'styled-components';
 const NameHeader = styled.h1`
   font-size: 100px;
   // font-family: 'Switzer-Medium';
-  color: rgb(36, 36, 36);
+  // color: rgb(36, 36, 36);
   font-family: 'Cormorant Upright', serif;
   font-weight: 100;
   margin-bottom: 0px;
   color: #d05c35;
+  // color: #dd732c;
+  // color: rgb(223, 110, 35);
 `;
 
 const Subheader = styled.p`
