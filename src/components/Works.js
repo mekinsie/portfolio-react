@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
+import Carousel from './Carousel.tsx';
 
 function Works(){
 
@@ -54,6 +55,9 @@ function Works(){
 
   return(
     <>
+
+    <Carousel/>
+
     <WorksDiv id="works">
       <Fade duration="1500" delay="150">
         <WorksHeader>Works</WorksHeader>
