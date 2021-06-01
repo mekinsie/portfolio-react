@@ -6,7 +6,6 @@ function Carousel(){
     flashChord1, flashChord1, flashChord1, flashChord1, flashChord1
   ]
 
-
   return(
     <>
     </>

@@ -1,22 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
-import { useSpring, animated } from 'react-spring'
-import flashChord1 from '../img/flashchordhome.png'
-import Carousel from './Carousel';
 
 function Works(){
-
-  // const springProps = useSpring({
-  //   opacity: 1,
-  //   from: { opacity: 0 },
-  // })
-  const [clicked, setClicked] = useState(false);
-
-  const size = useSpring({
-    width: clicked ? "300px" : "200px",
-    // opacity: clicked ? 1 : 0
-  })
 
   const WorksDiv = styled.div`
     height: 1400px;
@@ -65,12 +51,9 @@ function Works(){
     // borderRadius: '10px',
     // lineHeight: '40px'
   }
-  
+
   return(
     <>
-    {/* <Carousel/><br></br> */}
-    {/* <animated.img style={size} onClick={()=> setClicked(!clicked)} src={flashChord1}></animated.img><br></br> */}
-  
     <WorksDiv id="works">
       <Fade duration="1500" delay="150">
         <WorksHeader>Works</WorksHeader>
@@ -86,12 +69,6 @@ function Works(){
           <Sub>Ruby on Rails | PostgreSQL | Heroku | Devise | SCSS <a style={float} href="https://github.com/mekinsie/piano_pals" target="_blank">GitHub Repo</a></Sub>
           <Description>Flash Chords is a web application where users can learn piano chords through the use of flash cards. Users can sign up to save and customize their own flashcard sets. Co-authored by <a href="https://github.com/MicahOlson" target="_blank">Micah Olsen</a> and <a href="https://github.com/CrankyJones" target="_blank">Geof Rosenmund.</a></Description>
         </Fade>
-
-
-
-
-
-
         <Fade duration="1300" delay="160">
           <a style={font}  href="https://www.memoryspace.net/" target="_blank">MEMORY SPACE</a>
           <Sub>React | Redux | Firebase <a style={float} href="https://github.com/mekinsie/memory-space" target="_blank">GitHub Repo</a> </Sub>
