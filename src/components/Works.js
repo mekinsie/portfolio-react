@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
 import { useSpring, animated } from 'react-spring'
 import flashChord1 from '../img/flashchordhome.png'
-// import Carousel from './Carousel';
+import Carousel from './Carousel';
 
 function Works(){
 
